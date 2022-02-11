@@ -209,13 +209,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c145f086565d1ab4d83dff2057422a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1
+  speeding: 0.1
   animator: {fileID: 3781776022408307479}
   topBorder: {fileID: 1591701791430458075}
   bottomBorder: {fileID: 1591701792603948521}
   rigidBody: {fileID: 1591701791978903943}
   isTopDirection: 0
-  speed: 1
-  speeding: 0.1
 --- !u!95 &3781776022408307479
 Animator:
   serializedVersion: 3
@@ -248,9 +248,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGrounded: 0
-  tagObject: Bomb
-  tagObject2: Enemy
-  tagObject3: Enemy
+  tagInstantKill: Bomb
+  tagSecondTouch: Enemy
+  tagExplosionTime: Enemy
 --- !u!1 &1591701792603948521
 GameObject:
   m_ObjectHideFlags: 0

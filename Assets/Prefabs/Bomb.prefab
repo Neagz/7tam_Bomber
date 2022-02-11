@@ -135,6 +135,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGrounded: 0
-  tagObject: Enemy
-  tagObject2: Player
-  tagObject3: Player
+  tagInstantKill: Enemy
+  tagSecondTouch: Player
+  tagExplosionTime: Player
